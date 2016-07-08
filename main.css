@@ -1,3 +1,18 @@
+body {
+  background-color: #eee; }
 
+.blog h1, .entry h1 {
+  font-size: 20px;
+  color: blue; }
+.blog p, .entry p {
+  font-size: 12px;
+  margin: 20px; }
+.blog a, .entry a {
+  color: red; }
+
+html.csscolumns .blog, html.csscolumns .entry {
+  column-count: 2;
+  column-gap: 10px;
+  margin: 10px; }
 
 /*# sourceMappingURL=main.css.map */
